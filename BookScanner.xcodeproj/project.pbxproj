@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A1E71F262CEB8F0B005BFB07 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A1E71F252CEB8F05005BFB07 /* .gitignore */; };
+		A1E71F282CEB8F59005BFB07 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A1E71F272CEB8F51005BFB07 /* LICENSE */; };
+		A1E71F2A2CEB8F71005BFB07 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A1E71F292CEB8F6C005BFB07 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		A15C809D2CE9E080007C02CF /* BookScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15C80A72CE9E080007C02CF /* BookScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E71F252CEB8F05005BFB07 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A1E71F272CEB8F51005BFB07 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A1E71F292CEB8F6C005BFB07 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +84,8 @@
 		A15C80842CE9E07C007C02CF = {
 			isa = PBXGroup;
 			children = (
+				A1E71F292CEB8F6C005BFB07 /* README.md */,
+				A1E71F272CEB8F51005BFB07 /* LICENSE */,
 				A1E71F252CEB8F05005BFB07 /* .gitignore */,
 				A15C808F2CE9E07C007C02CF /* BookScanner */,
 				A15C80A02CE9E080007C02CF /* BookScannerTests */,
@@ -219,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1E71F262CEB8F0B005BFB07 /* .gitignore in Resources */,
+				A1E71F2A2CEB8F71005BFB07 /* README.md in Resources */,
+				A1E71F282CEB8F59005BFB07 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
