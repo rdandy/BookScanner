@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1E71F262CEB8F0B005BFB07 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A1E71F252CEB8F05005BFB07 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A15C809E2CE9E080007C02CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15C80852CE9E07C007C02CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15C808C2CE9E07C007C02CF;
+			remoteInfo = BookScanner;
+		};
+		A15C80A82CE9E080007C02CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15C80852CE9E07C007C02CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15C808C2CE9E07C007C02CF;
+			remoteInfo = BookScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A15C808D2CE9E07C007C02CF /* BookScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15C809D2CE9E080007C02CF /* BookScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15C80A72CE9E080007C02CF /* BookScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E71F252CEB8F05005BFB07 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A15C808F2CE9E07C007C02CF /* BookScanner */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BookScanner;
+			sourceTree = "<group>";
+		};
+		A15C80A02CE9E080007C02CF /* BookScannerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BookScannerTests;
+			sourceTree = "<group>";
+		};
+		A15C80AA2CE9E080007C02CF /* BookScannerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BookScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A15C808A2CE9E07C007C02CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15C809A2CE9E080007C02CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15C80A42CE9E080007C02CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A15C80842CE9E07C007C02CF = {
+			isa = PBXGroup;
+			children = (
+				A1E71F252CEB8F05005BFB07 /* .gitignore */,
+				A15C808F2CE9E07C007C02CF /* BookScanner */,
+				A15C80A02CE9E080007C02CF /* BookScannerTests */,
+				A15C80AA2CE9E080007C02CF /* BookScannerUITests */,
+				A15C808E2CE9E07C007C02CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A15C808E2CE9E07C007C02CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A15C808D2CE9E07C007C02CF /* BookScanner.app */,
+				A15C809D2CE9E080007C02CF /* BookScannerTests.xctest */,
+				A15C80A72CE9E080007C02CF /* BookScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A15C808C2CE9E07C007C02CF /* BookScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15C80B12CE9E080007C02CF /* Build configuration list for PBXNativeTarget "BookScanner" */;
+			buildPhases = (
+				A15C80892CE9E07C007C02CF /* Sources */,
+				A15C808A2CE9E07C007C02CF /* Frameworks */,
+				A15C808B2CE9E07C007C02CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A15C808F2CE9E07C007C02CF /* BookScanner */,
+			);
+			name = BookScanner;
+			packageProductDependencies = (
+			);
+			productName = BookScanner;
+			productReference = A15C808D2CE9E07C007C02CF /* BookScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A15C809C2CE9E080007C02CF /* BookScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15C80B42CE9E080007C02CF /* Build configuration list for PBXNativeTarget "BookScannerTests" */;
+			buildPhases = (
+				A15C80992CE9E080007C02CF /* Sources */,
+				A15C809A2CE9E080007C02CF /* Frameworks */,
+				A15C809B2CE9E080007C02CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15C809F2CE9E080007C02CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A15C80A02CE9E080007C02CF /* BookScannerTests */,
+			);
+			name = BookScannerTests;
+			packageProductDependencies = (
+			);
+			productName = BookScannerTests;
+			productReference = A15C809D2CE9E080007C02CF /* BookScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A15C80A62CE9E080007C02CF /* BookScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15C80B72CE9E080007C02CF /* Build configuration list for PBXNativeTarget "BookScannerUITests" */;
+			buildPhases = (
+				A15C80A32CE9E080007C02CF /* Sources */,
+				A15C80A42CE9E080007C02CF /* Frameworks */,
+				A15C80A52CE9E080007C02CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15C80A92CE9E080007C02CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A15C80AA2CE9E080007C02CF /* BookScannerUITests */,
+			);
+			name = BookScannerUITests;
+			packageProductDependencies = (
+			);
+			productName = BookScannerUITests;
+			productReference = A15C80A72CE9E080007C02CF /* BookScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A15C80852CE9E07C007C02CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					A15C808C2CE9E07C007C02CF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					A15C809C2CE9E080007C02CF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A15C808C2CE9E07C007C02CF;
+					};
+					A15C80A62CE9E080007C02CF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A15C808C2CE9E07C007C02CF;
+					};
+				};
+			};
+			buildConfigurationList = A15C80882CE9E07C007C02CF /* Build configuration list for PBXProject "BookScanner" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A15C80842CE9E07C007C02CF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A15C808E2CE9E07C007C02CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A15C808C2CE9E07C007C02CF /* BookScanner */,
+				A15C809C2CE9E080007C02CF /* BookScannerTests */,
+				A15C80A62CE9E080007C02CF /* BookScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15C808B2CE9E07C007C02CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E71F262CEB8F0B005BFB07 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15C809B2CE9E080007C02CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15C80A52CE9E080007C02CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A15C80892CE9E07C007C02CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15C80992CE9E080007C02CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15C80A32CE9E080007C02CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A15C809F2CE9E080007C02CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15C808C2CE9E07C007C02CF /* BookScanner */;
+			targetProxy = A15C809E2CE9E080007C02CF /* PBXContainerItemProxy */;
+		};
+		A15C80A92CE9E080007C02CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15C808C2CE9E07C007C02CF /* BookScanner */;
+			targetProxy = A15C80A82CE9E080007C02CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A15C80AF2CE9E080007C02CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A15C80B02CE9E080007C02CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A15C80B22CE9E080007C02CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = M6P75FX96C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to scan ISBN barcodes of books.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdandy.app.bookscaner.BookScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A15C80B32CE9E080007C02CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = M6P75FX96C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to scan ISBN barcodes of books.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdandy.app.bookscaner.BookScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A15C80B52CE9E080007C02CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6P75FX96C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdandy.app.bookscaner.BookScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookScanner";
+			};
+			name = Debug;
+		};
+		A15C80B62CE9E080007C02CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6P75FX96C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdandy.app.bookscaner.BookScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookScanner";
+			};
+			name = Release;
+		};
+		A15C80B82CE9E080007C02CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6P75FX96C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdandy.app.bookscaner.BookScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookScanner;
+			};
+			name = Debug;
+		};
+		A15C80B92CE9E080007C02CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6P75FX96C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdandy.app.bookscaner.BookScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A15C80882CE9E07C007C02CF /* Build configuration list for PBXProject "BookScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15C80AF2CE9E080007C02CF /* Debug */,
+				A15C80B02CE9E080007C02CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15C80B12CE9E080007C02CF /* Build configuration list for PBXNativeTarget "BookScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15C80B22CE9E080007C02CF /* Debug */,
+				A15C80B32CE9E080007C02CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15C80B42CE9E080007C02CF /* Build configuration list for PBXNativeTarget "BookScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15C80B52CE9E080007C02CF /* Debug */,
+				A15C80B62CE9E080007C02CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15C80B72CE9E080007C02CF /* Build configuration list for PBXNativeTarget "BookScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15C80B82CE9E080007C02CF /* Debug */,
+				A15C80B92CE9E080007C02CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A15C80852CE9E07C007C02CF /* Project object */;
+}
